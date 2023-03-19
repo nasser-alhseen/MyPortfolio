@@ -22,16 +22,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col  md={4} className="project-card">
-            <ProjectCard
-           
-              imgPath={boss}
-              isBlog={false}
-              title="BossNumbers"
-              description="Phone Numbers Market That Helps The User to Get His Special Number "
-              link="https://play.google.com/store/apps/details?id=com.nasser.golden_number"
-            />
-          </Col>
+       
 
           <Col  md={4} className="project-card">
             <ProjectCard 
